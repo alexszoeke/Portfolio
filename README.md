@@ -1,2 +1,2 @@
 # Portfolio
-New and improved portfolio
+New and improved portfolio, still undergoing changes.
