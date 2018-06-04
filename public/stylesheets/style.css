@@ -1,0 +1,176 @@
+body {
+    background-image: url("../images/greyzz.png");
+    background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    overflow: auto;
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+
+.bg-2 { 
+    background-color: #474e5d; /* Grey */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #fdd9d2; /* Pink */
+    color: #555555;
+}
+.bg-1 { 
+    background-color: #ffffff; /* White */
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*Nav Bar*/
+.navbar {
+    background-image: url("../images/black_paper.png");
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    color: white;
+    padding: .0rem 0rem;
+}
+
+
+/* Nav Link */
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.nav-link:hover {
+    background-color: white;
+    color: #fdd9d2;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/menu.png");
+}
+
+/*Name-Logo*/
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    background-color: #fdd9d2;
+    color: black;
+}
+
+h1 {
+    font-weight: bolder;
+    padding: 15px 25px 0px 25px;
+}
+
+/*Container*/
+
+body>.container {
+    margin-top: 30px;
+    overflow: auto;
+    margin-bottom: 75px;
+}
+
+
+#bodycontainer {
+    overflow: auto;
+}
+
+
+.icon {
+    margin: 10px;
+}
+
+/*Form*/
+
+h3, h5 {
+    color: black;
+}
+
+.form-control {
+    border: 2px solid #dac2a8;
+}
+
+label {
+    margin: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: #474e5d;
+    float: left;
+}
+
+input {
+    margin: 5px;
+}
+
+#message {
+    height: 150px;
+}
+
+#contact-button {
+    background-color: #404040;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+}
+
+/*End Form*/
+
+/*Portfolio*/
+
+.thumbnail {
+    /* position: relative; */
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    margin-bottom: 15px;
+    width: 285px;
+    background-color: black;
+}
+
+.img-fluid {
+    height: 350px;
+}
+
+.modal-body {
+    color: #474e5d;
+}
+
+
+/*Carousel*/
+
+
+
+/*Footer*/
+
+.fixed-bottom {
+    text-align: center;
+    background-image: url("../images/black_paper.png");
+    color: white;
+    height: 50px;
+    padding: 15px;
+    font-size: 16px;
+    border-top: 2px solid #fdd9d2;
+}
+
+@media screen and (max-width:980px) {
+    h1 {
+        margin: auto;
+    }
+    .navbar {
+        width: 100%;
+    }
+}

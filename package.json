@@ -1,0 +1,35 @@
+{
+  "name": "alex-szoeke-portfolio",
+  "version": "1.0.0",
+  "description": "An updated version of my portfolio now using serverside code, such as node.js, express, and handlebars.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "portfolio"
+  },
+  "author": "Alex Szoeke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "node-sass-chokidar": "^1.2.2",
+    "path": "^0.12.7",
+    "request": "^2.87.0",
+    "sequelize": "^4.37.10",
+    "sequelize-file": "^0.3.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "keywords": []
+}

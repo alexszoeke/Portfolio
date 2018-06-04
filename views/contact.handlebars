@@ -1,0 +1,50 @@
+<div class="container-fluid bg-1 text-center">
+<a name="jumpto"/>
+<h3>Contact Me</h3>
+<h5>Houston, TX</h5>
+
+
+<!--Form-->
+{{!-- <form action="mailto: alex_szoeke@outlook.com" method="post" enctype="text/plain"> --}}
+<form id="contact-form" method="post">
+    <div class="form-group">
+        <!--Name-->
+        <label>Name</label>
+        <input type="text" name="fullname" placeholder="Jane Doe" id="name" class="form-control">
+    </div>
+
+    <!--Email-->
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" name="email" placeholder="example@gmail.com" id="email" class="form-control">
+    </div>
+
+    <!--Message-->
+    <div class="form-group">
+        <label>Message</label>
+        <input type="text" name="message" class="form-control" id="message">
+        <!--Submit-->
+        <button type="submit" class="btn btn-primary" id="contact-button" data-toggle="modal" data-target="#exampleModal">Send</button>
+    </div>
+</form>
+<!--Form Ends-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Thanks for reaching out!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>I'll get back to you shortly!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
