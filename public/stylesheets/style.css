@@ -149,9 +149,33 @@ input {
     color: #474e5d;
 }
 
+.temp {
+    color: #fdd9d2;
+}
+
 
 /*Carousel*/
+.carousel {
+    width:740px;
+    height:640px;
+    margin: auto;
+  }
 
+  .carousel-inner > .carousel-item > img {
+    width:740px;
+    height:500px;
+  }
+
+  a {
+      color: #dac2a8;
+  }
+
+  .carousel-caption {
+      background-color: #474e5dc2;
+      width: 100%;
+      left: 0%;
+      right: 0%;
+  }
 
 
 /*Footer*/
@@ -163,7 +187,6 @@ input {
     height: 50px;
     padding: 15px;
     font-size: 16px;
-    border-top: 2px solid #fdd9d2;
 }
 
 @media screen and (max-width:980px) {
