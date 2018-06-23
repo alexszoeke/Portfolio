@@ -5,7 +5,7 @@ var exphbs = require("express-handlebars");
 var path = require("path");
 
 var PORT = process.env.PORT || 3000;
-var db = require("./models");
+// var db = require("./models");
 
 // Creating express app and configuring middleware needed for authentication
 var app = express();
