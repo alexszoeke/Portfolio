@@ -37,7 +37,7 @@ $(document).ready(function () {
     };
     $.ajax({
         type: "POST",
-        url: $(form).attr('action'),
+        url: $("form").attr('action'),
         data: data,
         success: function(){
             $('.success').fadeIn(1000);

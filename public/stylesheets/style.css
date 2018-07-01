@@ -20,7 +20,7 @@ p {
     color: #ffffff;
 }
 .bg-3 { 
-    background-color: #fdd9d2; /* Pink */
+    background-color: #f6f6f6; /* Light Grey */
     color: #555555;
 }
 .bg-1 { 
@@ -188,6 +188,11 @@ input {
 
 .btn-primary:focus {
     box-shadow:0 0 0 0.2rem black!important;
+}
+
+.row {
+    margin-right: -0px; 
+    margin-left: 0px;
 }
 
 
