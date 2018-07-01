@@ -7,7 +7,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .margin {
@@ -91,6 +91,11 @@ body>.container {
     margin: 10px;
 }
 
+#logo:hover {
+    content: url("../images/recent-photo.jpg");
+}
+
+
 /*Form*/
 
 h3, h5 {
@@ -128,6 +133,11 @@ input {
     border: none;
 }
 
+.form-control:focus {
+    border-color: #dac2a8;
+    box-shadow: 0 0 0 0.2rem #fdd9d2;
+}
+
 /*End Form*/
 
 /*Portfolio*/
@@ -153,6 +163,33 @@ input {
     color: #fdd9d2;
 }
 
+/* Modal */
+.btn-primary {
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+.btn-primary:hover {
+    background-color: #fdd9d2;
+    color: black;
+    border:#fdd9d2;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: black!important;
+}
+
+.btn-primary:focus {
+    box-shadow:0 0 0 0.2rem black!important;
+}
+
 
 /*Carousel*/
 .carousel {
@@ -175,6 +212,11 @@ input {
       width: 100%;
       left: 0%;
       right: 0%;
+  }
+
+  embed {
+      margin: 0 auto;
+      
   }
 
 

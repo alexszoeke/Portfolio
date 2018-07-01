@@ -21,4 +21,12 @@ app.get("/about", function(req, res) {
     res.render("about-me");
 });
 
+app.get("/marketing", function(req, res) {
+    res.render("marketing");
+});
+
+app.get("/resume", function(req, res) {
+    res.render("resume");
+})
+
 };
