@@ -195,6 +195,10 @@ input {
     margin-left: 0px;
 }
 
+.modal-content {
+    width: fit-content;
+}
+
 
 /*Carousel*/
 .carousel {
